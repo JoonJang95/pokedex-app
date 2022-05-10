@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.App {
+  width: 100%;
+  max-width: 1650px;
+  min-width: 875px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .App {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}

@@ -1,0 +1,68 @@
+.pokemon-main-display-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 40%;
+}
+
+.pokemon-main-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+  width: 375px;
+  margin: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2.5rem 0;
+  position: relative;
+}
+
+.pokemon-main-display-id {
+  position: absolute;
+  top: 1rem;
+  left: 1.25rem;
+  font-size: 1.5rem;
+}
+
+.pokemon-main-display-type-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 13.75rem;
+}
+
+.pokemon-main-display-type-icon {
+  height: 32px;
+  width: 32px;
+}
+
+.pokemon-main-display-image {
+  height: 200px;
+  width: 200px;
+  padding: 1.75rem;
+  border: solid 0.5px rgb(189, 198, 212, 0.7);
+  border-radius: 50%;
+  border-width: 0.25rem;
+  background-color: rgb(187, 232, 228, 0.2);
+}
+
+.pokemon-main-display-card > figcaption > h2 {
+  font-size: 2.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.pokemon-main-display-card > figcaption > p {
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+  color: rgb(80, 80, 80);
+  padding: 0 3rem;
+}

@@ -1,0 +1,18 @@
+.pokedex_display {
+  display: flex;
+  flex-direction: row;
+  margin: 10vh 0;
+  height: 80vh;
+  background-color: #bbe6e4;
+  border-radius: 15px;
+  background-image: url("./utils/images/pokemon-background.jpg");
+  background-size: contain;
+}
+
+@media screen and (max-width: 1280px) {
+  .pokedex_display {
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+    padding: 2rem 0;
+  }
+}
